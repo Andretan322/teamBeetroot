@@ -92,7 +92,7 @@ textarea {
   flex-wrap: wrap;
   gap: 10px;
 }
-.cookies .cookies__desc {
+.cookies__desc {
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
@@ -104,6 +104,7 @@ textarea {
   height: 30px;
 }
 .cookies__btn a {
+  width: 100%;
   color: #194277;
   font-size: 12px;
   font-weight: 700;
@@ -129,4 +130,37 @@ textarea {
   align-items: center;
   border-radius: 10px;
   background: #f4f4f4;
+}
+
+.footer {
+  background: linear-gradient(51deg, #3695ff 0%, #3564fc 100%);
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.footer__desc {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 300;
+}
+.footer__desc span {
+  font-weight: 700;
+}
+.footer__btn {
+  flex: 0 1 200px;
+  text-align: center;
+  border-radius: 28px;
+  height: 55px;
+}
+.footer__btn a {
+  width: 100%;
+  color: #3695ff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
 }

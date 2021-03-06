@@ -1,0 +1,37 @@
+.footer {
+    background: linear-gradient(51deg, #3695ff 0%, #3564fc 100%);
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    &__desc {
+        color: #ffffff;
+        font-size: 50px;
+        font-weight: 300;
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    &__btn {
+        flex: 0 1 200px;
+        text-align: center;
+        border-radius: 28px;
+        height: 55px;
+
+        a{
+            width: 100%;
+            color: #3695ff;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
+        }
+    }
+}

@@ -15,7 +15,7 @@
         gap: 10px;
     }
 
-    .cookies__desc {
+    &__desc {
         color: #ffffff;
         font-size: 14px;
         font-weight: 400;
@@ -28,6 +28,7 @@
         height: 30px;
 
         a {
+            width: 100%;
             color: #194277;
             font-size: 12px;
             font-weight: 700;
