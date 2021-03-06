@@ -1,0 +1,12 @@
+.btn {
+    background: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    &:hover {
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    }
+}
