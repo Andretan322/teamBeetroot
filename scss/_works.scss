@@ -15,6 +15,11 @@
   }
 
   &__block {
+
+    &:hover {
+        box-shadow: 0px 0px 10px black;
+    }
+
     flex: 1 1 31%;
 
     height: 270px;
