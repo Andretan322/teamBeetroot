@@ -10,14 +10,44 @@
 
   <body>
     <div class="content">
+      <div class="hire" id="hire">
+        <div class="container">
+          <div class="hire__title title">Hire Me</div>
+          <div class="hire__form">
+            <form action="#" class="form">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your Name"
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+              />
+              <input type="textarea" placeholder="Your Message" />
+              <input
+                type="submit"
+                value="Send a Message"
+                onclick="backgroundNone()"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+
       <main class="page">
-        <div class="page__cookies cookies">
+        <div class="page__cookies cookies" id="cookies">
           <div class="container">
             <div class="cookies__content">
               <div class="cookies__desc">
                 This site uses cookies, so that my service can work better.
               </div>
-              <div class="cookies__btn btn"><a href="#">Accept</a></div>
+              <div class="cookies__btn btn">
+                <a href="#" onclick="cookiesHidden()">Accept</a>
+              </div>
             </div>
           </div>
         </div>
@@ -274,10 +304,16 @@
             <div class="footer__desc">
               Need a graphic designer? <span>Ready to work! </span>
             </div>
-            <div class="footer__btn btn"><a href="">hire me</a></div>
+            <div class="footer__btn btn">
+              <a href="#" onclick="background()">hire me</a>
+            </div>
           </div>
         </div>
       </footer>
+
+      <div class="background-on-click" id="background"></div>
+
+      <script src="index.js"></script>
     </div>
   </body>
 </html>
